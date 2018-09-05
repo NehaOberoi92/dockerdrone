@@ -1,9 +1,12 @@
 pipeline:
   build:
     image: 26051992/iisrepo
+	commands:
+      - yarn
   docker:
     image: plugins/docker
     username: 26051992	
     password: forloop@5040
     repo: 26051992/iisrepo
     tags: latest
+	
