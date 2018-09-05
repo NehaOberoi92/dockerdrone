@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: 26051992/iisrepo
-	commands:
+    commands:
       - yarn
   docker:
     image: plugins/docker
